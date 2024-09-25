@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("./fonts/quicksand/Quicksand_Book.otf") format("opentype");
+  font-family: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #0f0f0f;
+}
+
