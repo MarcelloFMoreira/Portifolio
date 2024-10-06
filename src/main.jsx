@@ -7,6 +7,7 @@ import Home from './routes/Home.jsx';
 import Contact from './routes/Contact.jsx';
 import Projetos from './routes/Projetos.jsx';
 import Sobre from './routes/Sobre.jsx';
+import Detalhesprojeto from './routes/Detalhesprojeto.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 
 const router = createBrowserRouter([
@@ -30,7 +31,12 @@ const router = createBrowserRouter([
       {
         path: "sobre",
         element: <Sobre />,
-      },]
+      },
+      {
+        path: "detalhes_projeto",
+        element: <Detalhesprojeto/>,
+      },
+    ]
   }
 ]);
 
@@ -38,4 +44,4 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>,
-)
+);

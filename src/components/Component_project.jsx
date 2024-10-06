@@ -1,17 +1,18 @@
 import React from "react";
-import Exemplo from "../img/exemplo.png"
+import { Link } from "react-router-dom";
 
-
-const Component_project = () => {
+const Component_project = (props) => {
     return (
-
-        <div class="p-10 m-auto">  
-            <div class="bg-vermelho_primary w-96 h-56 rounded-3xl grid grid-cols-2 p-2">
-            <img src={Exemplo} class="bg-vermelho_primary h-40 m-auto" />
-            <p class="text-white bg-vermelho_primary text-center items-center flex ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-            </div>
+        <div className="p-10 m-auto">
+            <Link to={props.link} className="bg-vermelho_primary w-96 h-60 rounded-3xl grid grid-cols-2 p-2">
+                <img src={props.img} className="bg-vermelho_primary h-40 m-auto" alt="project" />
+                <p className="text-white bg-vermelho_primary text-center items-center flex">
+                    {props.texto}
+                </p>
+                <p className="text-white bg-vermelho_primary text-center items-center flex mt-2">Clique para ver mais detalhes</p>
+            </Link>
         </div>
     );
 };
 
-export default Component_project
+export default Component_project;
