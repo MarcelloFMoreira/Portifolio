@@ -10,7 +10,7 @@ const Home = () => {
             <h2 class="font-quicksand text-vermelho_primary text-5xl font-bold">Dev Full stack</h2>
                 <div class="mt-20">
                     <Link to="/projetos" class="border-2 border-white text-white rounded-3xl pt-2 pb-2 pl-5 pr-5 mr-10 hover:bg-vermelho_primary hover:border-0 hover:shadow-md hover:shadow-vermelho_primary " >Projetos</Link>
-                    <button class="border-2 border-white text-white rounded-3xl pt-2 pb-2 pl-5 pr-5 mr-10 hover:bg-vermelho_primary hover:border-0 hover:shadow-md hover:shadow-vermelho_primary " >Entre em contato</button>
+                    <Link to="/contatos" class="border-2 border-white text-white rounded-3xl pt-2 pb-2 pl-5 pr-5 mr-10 hover:bg-vermelho_primary hover:border-0 hover:shadow-md hover:shadow-vermelho_primary " >Entre em contato</Link>
                 </div>
             </div>
             <div class="mt-20 ml-20">
