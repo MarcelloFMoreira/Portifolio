@@ -22,7 +22,7 @@ const Sobre = () => {
                 <h1 class="text-3xl font-bold mt-6 mb-20">MAIS SOBRE MIM</h1>
             </div>
             <div class="lg:grid lg:grid-cols-2 gap-4">
-                <img src={Code} alt="codigo" class="ml-48 mt-1" />
+                <img src={Code} alt="codigo" class=" flex lg:ml-48 lg:mt-1 ml-auto mr-auto lg:mr-0" />
                 <div class="m-20 lg:mt-0 flex text-white font-quicksand text-xl lg:mr-56 justify-center flex-col">
                 <p class="  mt-3">Sou um desenvolvedor Full-Stack com conhecimento em diversas tecnologias de desenvolvimento de software como  Pyhton, JavaScript, Java, React, C++, HTML, CSS,  Figma, Sass, Boostrap entre outras.</p> <br/>
                 <p class=" flex justify-center">Estou continuamente atualizando minhas habilidades para atender às demandas do mercado tecnológico. Busco oportunidades para aplicar minhas competências de forma inovadora, colaborar com equipes e contribuir para soluções tecnológicas impactantes. Meu objetivo é crescer profissionalmente e enfrentar desafios que promovam meu aprendizado e evolução no desenvolvimento de software.</p>
