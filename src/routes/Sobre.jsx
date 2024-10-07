@@ -2,7 +2,7 @@ import React from "react";
 import Code from "../img/code.png"
 import Python from "../img/python.png"
 import Reactimg from "../img/react.png"
-import JS from "../img/JS.png"
+import JS from "../img/js.png"
 import Sass from "../img/sass.png"
 import Bootstrap from "../img/bootstrap.png"
 import Html from "../img/html.png"
