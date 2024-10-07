@@ -8,8 +8,7 @@ const Projetos = () => {
       <h1 className="text-white font-quicksand text-center text-3xl font-bold mt-6 mb-2">
         PROJETOS
       </h1>
-      <div className="grid grid-cols-2">
-        {/* Fechamento correto da tag e ajuste de class para className */}
+      <div className="grid lg:grid-cols-2 justify-center mt-20 lg:mt-0">
         <Component_project
           img={Exemplo}
           texto="Lorem ipsum dolor sit amet, consectetur adipisicing elit."

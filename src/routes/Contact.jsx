@@ -18,14 +18,11 @@ const Contact = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="grid grid-cols-2">
-      <div className="ml-16">
+    <form onSubmit={handleSubmit} className="xl:grid xl:grid-cols-2">
+      <div className="xl:ml-16 mt-24 xl:mt-0 flex flex-col items-center xl:flex-auto xl:items-start">
         <Input name="Seu nome" onChange={(e) => setNome(e.target.value)} />
         <Input name="Email" onChange={(e) => setEmail(e.target.value)} />
-        <Input
-          name="Número de Telefone"
-          onChange={(e) => setNumeroTelefone(e.target.value)}
-        />
+        <Input name="Número de Telefone" onChange={(e) => setNumeroTelefone(e.target.value)}/>
         <Input name="Assunto" onChange={(e) => setAssunto(e.target.value)} />
       </div>
       <div className="flex flex-col items-center h-full ax-w-xl mt-10">
